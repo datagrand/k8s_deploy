@@ -1,0 +1,4 @@
+##this is pause-amd64:3.1
+##Instructions
+docker load < pause-amd64:3.1
+docker tag [IMAGE ID] k8s.gcr.io/pause-amd64:3.1  

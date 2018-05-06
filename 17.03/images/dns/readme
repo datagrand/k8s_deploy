@@ -1,0 +1,14 @@
+##this is dns-dnsmasq-nanny-amd64.tgz
+##Instructions
+docker load < dns-dnsmasq-nanny-amd64.tgz
+docker tag [IMAGE ID] k8s.gcr.io/k8s-dns-dnsmasq-nanny-amd64:1.14.8
+
+##this is dns-sidecar-amd64.tgz 
+##Instructions
+docker load < dns-sidecar-amd64.tgz
+docker tag [IMAGE ID] k8s.gcr.io/k8s-dns-sidecar-amd64:1.14.8
+
+##this is dns-kube-dns-amd64.tgz
+##Instructions
+docker load < dns-kube-dns-amd64.tgz
+docker tag [IMAGE ID] k8s.gcr.io/k8s-dns-kube-dns-amd64:1.14.8
