@@ -1,15 +1,15 @@
 ##this is kube-apiserver-amd64.tgz
 docker load < kube-apiserver-amd64.tgz
-docker tag [IMAGE ID]  k8s.gcr.io/kube-apiserver-amd64:v1.10.1
+docker tag [IMAGE ID]  k8s.gcr.io/kube-apiserver-amd64:v1.10.0
 
 ##this is kube-controller-manager-amd64.tgz
 docker load < kube-controller-manager-amd64.tgz
-docker tag [IMAGE ID]  k8s.gcr.io/kube-controller-manager-amd64:v1.10.1
+docker tag [IMAGE ID]  k8s.gcr.io/kube-controller-manager-amd64:v1.10.0
 
 ##this is kube-proxy-amd64.tgz
 docker load < kube-proxy-amd64.tgz
-docker tag [IMAGE ID]  k8s.gcr.io/kube-proxy-amd64:v1.10.1
+docker tag [IMAGE ID]  k8s.gcr.io/kube-proxy-amd64:v1.10.0
 
 ##this is kube-scheduler-amd64.tgz
 docker load < kube-scheduler-amd64.tgz
-docker tag [IMAGE ID]  k8s.gcr.io/kube-scheduler-amd64:v1.10.1
+docker tag [IMAGE ID]  k8s.gcr.io/kube-scheduler-amd64:v1.10.0
