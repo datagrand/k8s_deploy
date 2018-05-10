@@ -1,0 +1,9 @@
+##this is kubernetes-dashboard-amd64.tgz
+##Instructions
+docker load < kubernetes-dashboard-amd64.tgz
+docker tag [IMAGE ID] k8s.gcr.io/kubernetes-dashboard-amd64:v1.8.3
+
+##this is kubernetes-dashboard-init-amd64.tgz
+##Instructions
+docker load < kubernetes-dashboard-init-amd64.tgz
+docker tag [IMAGE ID] k8s.gcr.io/kubernetes-dashboard-init-amd64:v1.0.1

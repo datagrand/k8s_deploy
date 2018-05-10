@@ -1,0 +1,14 @@
+##this is heapster-amd64.tgz
+##Instructions
+docker load < heapster-amd64.tgz
+docker tag [IMAGE ID] k8s.gcr.io/heapster-amd64:v1.5.3
+
+##this is heapster-grafana-amd64.tgz
+##Instructions
+docker load < heapster-grafana-amd64.tgz
+docker tag [IMAGE ID] k8s.gcr.io/heapster-grafana-amd64:v4.4.3
+
+##this is heapster-influxdb-amd64.tgz
+##Instructions
+docker load < heapster-influxdb-amd64.tgz
+docker tag [IMAGE ID] k8s.gcr.io/heapster-influxdb-amd64:v1.3.3
