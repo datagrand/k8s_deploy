@@ -249,7 +249,7 @@ data:
        num_threads 2
     </match>
 metadata:
-  name: fluentd-es-config-v0.1.1
+  name: fluentd-es-config-v2.1.0
   namespace: kube-system
   labels:
     addonmanager.kubernetes.io/mode: Reconcile
